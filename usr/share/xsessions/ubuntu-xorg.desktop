@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Ubuntu
+Name=Ubuntu on Xorg
 Comment=This session logs you into Ubuntu
 Exec=env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
 TryExec=/usr/bin/gnome-shell
