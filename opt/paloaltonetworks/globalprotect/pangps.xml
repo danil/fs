@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalProtect>
 	<Settings>
+		<default-browser>yes</default-browser>
 		<disable-globalprotect>0</disable-globalprotect>
 	</Settings>
 	<PanSetup>
