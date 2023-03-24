@@ -46,4 +46,6 @@ exec > >(exec cat)
 exec 2> >(exec cat >&2)
 
 # Note: exec -a below is a bashism.
-exec -a "$0" "$HERE/chrome" "$@"
+# ~~~~<danil@kutkevich.org>.
+# exec -a "$0" "$HERE/chrome" "$@"
+exec -a "$0" "$HERE/chrome" --force-dark-mode --password-store=gnome "$@"
