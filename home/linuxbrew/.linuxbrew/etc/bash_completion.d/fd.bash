@@ -1,0 +1,1 @@
+../../Cellar/fd/8.4.0/etc/bash_completion.d/fd.bash
